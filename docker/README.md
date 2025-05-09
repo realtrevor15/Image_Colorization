@@ -1,6 +1,7 @@
 # Using Docker
 
-Installation\n
+Installation
+
 1.
 cd docker
 bash models/pytorch/fetch_model.sh # Fetches the PyTorch model

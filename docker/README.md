@@ -7,6 +7,8 @@ cd docker
 
 bash models/pytorch/fetch_model.sh # Fetches the PyTorch model
 
+Then move file caffemodel.pth to /docker/models/pytorch/
+
 docker build -t colorize .
 
 docker image ls
